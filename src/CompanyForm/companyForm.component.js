@@ -19,11 +19,11 @@ const handleSubmit = (e) => {
     return (
     <div className="Form_Container">
         <form className="form" onSubmit={(e) => handleSubmit(e)}>
-        <label htmlFor="cname">Company Name:</label>
+        <label htmlFor="cname">Company Name :</label>
         <input type="text" id="cname" name="cname"/><br></br>
-        <label htmlFor="cdomain">Company Domain:</label>
+        <label htmlFor="cdomain">Company Domain :</label>
         <input type="text" id="cdomain" name="cdomain"/><br></br>
-        <label htmlFor="csector">Company sector:</label>
+        <label htmlFor="csector">Company sector :</label>
         <select name="csector" id="csector">
             {sector.map((element,idx) => (<option key={idx} value={element}>{element}</option> )   
              )}

@@ -11,11 +11,18 @@ form {
     text-align: center;
     label{
         padding:10px;
+        display:inline-block;
+        width:140px;
     }
-    input {
-        margin:10px;
+    input, select {
+        margin:10px;   
+        width: 180px;
     }
     .button {
         margin:10px;
+    }
+    select{
+    height: 24px;
+    width: 190px;
     }
 }
